@@ -11,8 +11,8 @@
 }
 
 :root {
-    --color-bg: #1d3557;
-    --color-bg-variant: #457b9d;
+    --color-bg: #2b2d42;
+    --color-bg-variant: #8d99ae;
     --color-primary: #a8dadc;
     --color-primary-variant: #e63946;
     --color-white: #fff;
@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/black-thread-light.png);
+    background-image: url(../src/assets/noise.png);
 }
 
 /* ============General styles ================ */
@@ -112,10 +112,11 @@ img {
     object-fit: cover;
 }
 
-img-one {
+.img-one {
     display: block;
-    width: 50%;
-    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    object-fit: scale-down;
 }
 
 /* ================= Media Queries(Medium devices) ================= */
