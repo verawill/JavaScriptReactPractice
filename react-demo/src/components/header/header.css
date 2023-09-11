@@ -32,8 +32,8 @@ header {
 
 .header__socials::after {
     content: "";
-    width: 1px;
-    height: 2rem;
+    width: 4px;
+    height: 5rem;
     background: var(--color-primary-variant);
 }
 
@@ -41,14 +41,14 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary),transparent);
-    width: 28rem;
-    height: 30rem;
+    width: 48rem;
+    height: 40rem;
     position: absolute;
-    left: calc(50% - 14rem);
+    left: calc(50% - 24rem);
     margin-top: 4rem;
     border-radius: 1rem 1rem 0 0;
     overflow: hidden;
-    /*padding: 1.5rem 1.5rem 1.5rem 1.5rem; Position of image*/ 
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 /*========== scrol ====== */
 .scroll__down {
@@ -62,7 +62,7 @@ header {
 /*========== Header Social ====== */
 @media screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 100vh;
     }
 
     

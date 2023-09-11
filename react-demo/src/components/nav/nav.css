@@ -11,13 +11,12 @@ nav {
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
 }
 
 nav a{
     background: transparent;
     padding: 0.9rem;
-    border-radius: 50;
+    border-radius: 50rem;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
